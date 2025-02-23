@@ -1,5 +1,9 @@
 import Image61 from "@/components/Image61";
+import { MainNav } from "@/components/Mainnav";
 
 export default function Home() {
-  return <Image61 />;
+  return <>
+  <MainNav/>
+  <Image61 />;
+  </>
 }
